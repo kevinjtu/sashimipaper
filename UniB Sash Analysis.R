@@ -3,11 +3,11 @@ library(ggplot2)
 library(lubridate)
 
 # 1. Load the data
-setwd("/Users/kevintu/Downloads")
+setwd("/Users/.../datafolder")
 # Load necessary libraries
 
 # Load your data (replace with your actual file path if needed)
-data <- read_csv("UPENN_export_corrected v2 demo data.csv")
+data <- read_csv("data.csv")
 
 # ==============================================================================
 # Step 1: Calculate the CFM from each fume hood
