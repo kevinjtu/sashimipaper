@@ -6,7 +6,7 @@ library(stringr)
 library(lubridate)
 library(patchwork) 
 
-setwd("/Users/kevintu/Library/CloudStorage/OneDrive-Personal/Sustainabli/Sashimi Paper/UMD Sash Data")
+setwd("/Users/.../Sash Data")
 files <- list.files(pattern = "*.xlsx")
 
 process_file <- function(file_path) {
