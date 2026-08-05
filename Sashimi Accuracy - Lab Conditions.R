@@ -8,7 +8,7 @@ library(readxl)
 
 # PART 1: Accuracy Analysis (First Sheet)####
 # 1. Read and Prepare Data
-setwd("/Users/kevintu/Library/CloudStorage/OneDrive-Personal/Sustainabli/Sashimi Paper")
+setwd("/Users/.../data")
 sensor_data <- read_excel("Sensor Accuracy Data.xlsx", sheet = 2)
 
 long_data <- sensor_data %>%
