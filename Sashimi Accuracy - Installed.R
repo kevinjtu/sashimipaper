@@ -5,7 +5,7 @@ library(readxl)
 
 # 1. Load the data
 # Replace with the actual file path or name
-setwd("/Users/kevintu/Library/CloudStorage/OneDrive-Personal/Sustainabli/Sashimi Paper")
+setwd("/Users/.../data")
 data <- read_excel("Sashimi Accuracy Data - Installed.xlsx", sheet = 2)
 
 # Clean column names to make them easier to work with
