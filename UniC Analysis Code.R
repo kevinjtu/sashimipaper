@@ -4,10 +4,10 @@ library(janitor)
 library(ggplot2)
 
 
-setwd("~/Downloads")
+setwd("~/datafolder")
 
-stanf_data <- as.data.frame(fread("01_01_2023-05_23_2025-sash-data (1).csv"))
-room_mapping <- as.data.frame(fread("STANF Fume Hood Info.csv"))
+stanf_data <- as.data.frame(fread("sash data.csv"))
+room_mapping <- as.data.frame(fread("Fume Hood Info.csv"))
 
 room_mapping <- room_mapping %>%
   clean_names()
